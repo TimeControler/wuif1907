@@ -1,0 +1,267 @@
+body{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#back-top{
+	width: 34px;
+	height: 34px;
+	position: fixed;
+	bottom:40px;
+	right: 30px;
+	display: none;
+}
+#back-top img{
+	width: 34px;
+	height: 34px;
+}
+#hidden{
+	width: 100%;
+	background-color: #0C0C0C;
+	position: fixed;
+	top: -58px;
+	left: 0;
+	z-index: 9;
+	opacity: 0;
+	display: none;
+}
+#hidden-in{
+	height: 58px;
+}
+#logo-in{
+	height: 58px;
+	padding-top: 12px;
+	box-sizing: border-box;
+	float: left;
+}
+#logo-in img{
+	width: 115px;
+	height: 35px;
+}
+#header_right1{
+	height: 58px;
+	float: right;
+	margin: 0;
+}
+#header_right1 li{
+	height: 58px;
+	margin: 0 25px;
+	float: left;
+	color: #8d9095;
+	font-style: normal;
+	font-weight: normal;
+	list-style: none;
+	font-size: 14px;
+}
+#header_right1 li a{
+	height: 58px;
+	color: #8d9095;
+	line-height: 58px;
+	font-style: normal;
+	font-weight: normal;
+	list-style: none;
+	font-size: 14px;
+	text-decoration: none;
+}
+.container{
+	width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+#header{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	height: 90px;
+	border-bottom: 1px solid #333333;
+	background: #000000;
+}
+#header_in{
+	height: 90px;
+	
+}
+#logo{
+	position: absolute;
+	width: 230px;
+	height: 70px;
+	left: 0;
+	margin-top: 15px;
+	box-sizing: border-box;
+}
+#logo img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 173px;
+	height: 52px;
+}
+#header_right{
+	position: absolute;
+	right: 0;
+	top: 10px;
+	width: 615px;
+	height: 40px;
+}
+#header_right li{
+	height: 40px;
+	line-height: 40px;
+	margin: 0 25px;
+	float: left;
+	color: #8d9095;
+    font-style: normal;
+    font-weight: normal;
+	list-style: none;
+	font-size: 14px;
+}
+#header_right li a{
+	color: #8d9095;
+	font-style: normal;
+	font-weight: normal;
+	list-style: none;
+	font-size: 14px;
+	text-decoration: none;
+}
+#header_right li a:hover{
+	color: #ff6600;
+}
+#bg-title{
+	height: 272px;
+	margin-top: 120px;
+}
+#bg-title img{
+	width: 100%;
+	height: 272px;
+}
+#about{
+	height: 104px;
+	position: relative;
+}
+#about h3{
+	font-size: 32px;
+	line-height: 42px;
+	height: 42px;
+	color: #333333;
+	text-align: center;
+	font-weight: 200;
+	margin: 40px 0 0 0;
+}
+#about p{
+	font-size: 14px;
+	line-height: 24px;
+	height: 24px;
+	color: #A5A5A5;
+	text-align: center;
+	font-weight: 200;
+	margin: 0;
+}
+#line1{
+	width: 430px;
+	height: 20px;
+	border-top: 1px solid #CCCCCC;
+	position: absolute;
+	top: 32px;
+	left: 0;
+}
+#line2{
+	width: 430px;
+	height: 20px;
+	border-top: 1px solid #CCCCCC;
+	position: absolute;
+	top: 32px;
+	right: 0;
+}
+#end{
+	width: 100%;
+	height: 360px;
+	background: #242424 none repeat center top;
+    border-top: 1px solid transparent;
+	padding-top: 50px;
+}
+#end-box{
+	height: 360px;
+}
+.end-one{
+	list-style: none;
+	width: 33%;
+	height: 200px;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.end-one li:nth-child(1){
+	font-size: 14px;
+	color: #FF6000;
+}
+.end-one li:nth-child(3){
+	font-size: 14px;
+	color: #696969;
+	margin-bottom: 5px;
+}
+.end-one li:nth-child(4) span{
+	font-size: 14px;
+	color: #696969;
+	margin-bottom: 5px;
+}
+.end-one li:nth-child(4) strong{
+	font-size: 14px;
+	color: #FF6000;
+	margin-bottom: 5px;
+}
+.end-one li:nth-child(6){
+	font-size: 14px;
+	color: #D3D3D3;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.end-one li:nth-child(7){
+	font-size: 12px;
+	color: #696969;
+	margin-bottom: 5px;
+}
+.end-one li:nth-child(8){
+	font-size: 12px;
+	color: #696969;
+	margin-bottom: 5px;
+}
+#end-words{
+	font-size: 12px;
+	color: #c6c6c6;
+	text-align: center;
+}
+.zd_jlt {
+ width: 190px;
+ height: 30px;
+ margin: 0 auto;
+ list-style: none;
+}
+
+.zd_jlt li {
+ float: left;
+ width: 32px;
+ height: 32px;
+ margin-left: 3px;
+ background-color: #fff;
+ margin-right: 3px;
+ margin-top: 25px;
+}
+
+.zd_jlt :nth-child(1) {
+ background: url(../img/social_icon_32x32.png) no-repeat 0 -160px;
+}
+
+.zd_jlt :nth-child(2) {
+ background: url(../img/social_icon_32x32.png) no-repeat -64px -160px;
+}
+
+.zd_jlt :nth-child(3) {
+ background: url(../img/social_icon_32x32.png) no-repeat -128px -160px;
+}
+
+.zd_jlt :nth-child(4) {
+ background: url(../img/social_icon_32x32.png) no-repeat -640px -160px;
+}
+
+.zd_jlt :nth-child(5) {
+ background: url(../img/social_icon_32x32.png) no-repeat -352px -160px;
+}
+

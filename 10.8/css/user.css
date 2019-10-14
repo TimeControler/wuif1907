@@ -1,0 +1,9 @@
+@import url("public.css");
+input {
+	outline: none; // 去除选中状态边框
+}
+textarea{
+	outline: none;
+}
+
+

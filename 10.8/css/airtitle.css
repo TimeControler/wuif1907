@@ -1,0 +1,103 @@
+@import url("public.css");
+#big-pic{
+	width: 100%;
+	height: 270px;
+	margin-top: 90px;
+}
+#big-pic img{
+	width: 100%;
+	height: 100%;
+	background: no-repeat;
+	object-fit: cover;
+}
+#content{
+	height: auto;
+	padding: 40px 20px;
+}
+#content h1{
+	width: 100%;
+	font-weight: 100;
+	font-size: 32px;
+	color: #000000;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+}
+#content h2{
+	width: 100%;
+	font-weight: 100;
+	font-size: 14px;
+	color: #878787;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+}
+#content h3{
+	width: 100%;
+	font-weight: 100;
+	font-size: 14px;
+	color: #3E3E3E;
+	height: 21px;
+	line-height: 21px;
+	text-align: left;
+	margin-top: 40px;
+}
+#content h4{
+	width: 100%;
+	font-weight: 100;
+	font-size: 14px;
+	color: #3E3E3E;
+	height: 70px;
+	line-height: 26px;
+	text-align: left;
+	margin-top: 30px;
+	word-spacing: normal;
+}
+#content h5{
+	width: 100%;
+	font-weight: 100;
+	font-size: 14px;
+	color: #3E3E3E;
+	height: 44px;
+	line-height: 26px;
+	text-align: left;
+	margin-top: 30px;
+	word-spacing: normal;
+}
+#content h6{
+	width: 100%;
+	font-weight: 100;
+	font-size: 14px;
+	color: #3E3E3E;
+	height: 44px;
+	line-height: 26px;
+	text-align: left;
+	margin-top: 30px;
+	word-spacing: normal;
+}
+#turn{
+	margin-top: 30px;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 50px;
+}
+#turn h1{
+	float: left;
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #F0443A;
+	cursor: pointer;
+}
+#turn h2{
+	float: right;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #F0443A;
+	cursor: pointer;
+}
+
+
